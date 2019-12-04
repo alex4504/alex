@@ -1,0 +1,69 @@
+body{
+	background-image:url(image/elka9.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+}
+.oglav{
+	color: #3E0102;
+	font-weight:800;
+	font-size:33px;
+	font-family:SEGOE PRINT;
+	background-color:#E4ECDB;
+	border:5px solid #5F9B05;
+	border-radius:20px;
+	opacity:0.82;
+	box-shadow:7px 10px 10px #35481B;
+	width:35%;
+	padding:80px;
+	margin:60px;
+	height:120px;
+}
+.preim{
+	color:#A31D1A;
+	font-size:25px;
+	font-family:cursive;
+	background-color:#FDFEB8;
+	border:5px solid #5F9B05;
+	border-radius:20px;
+	width:34%;
+}
+.preim2{
+	color: #A31D1A;
+	font-size:25px;
+	font-family:cursive;
+	background-color:#FDFEB8;
+	border:5px solid #5F9B05;
+	border-radius:20px;
+	width:34%;
+}
+.preim3{
+	color: #A31D1A;
+	font-size:25px;
+	font-family:cursive;
+	background-color:#FDFEB8;
+	border:5px solid #5F9B05;
+	border-radius:20px;
+	width:34%;
+}
+.preim4{
+	padding:2cm 4cm 3cm 4cm;
+}
+
+.elka1{
+	color:#0082F4;
+	font-size:20px;
+	font-family:Arial;
+}
+.elka2{
+	color:#0082F4;
+	font-size:20px;
+	font-family:Arial;
+}
+.elka3{
+	color:#0082F4;
+	font-size:20px;
+	font-family:Arial;
+}
+#q{
+	color:#899AE1
+}

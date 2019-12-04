@@ -1,0 +1,57 @@
+найди и принеси документ
+querySelector:
+document.querySelector('селектор');
+Словом document обозначается веб-страница, к которой подключили скрипт. 
+; в конце каждой строки
+
+ОТКРЫТЬ КОНСОЛЬ:
+console.log('Привет от JavaScript!');
+
+элемент.classList.remove('класс');
+Метод убирает с элемента тот класс, который указан в скобках. Обратите внимание,
+ что мы не ставим точку перед именем класса в classList.remove. Это не селектор, 
+JavaScript и так знает, что мы имеем дело с классом.
+
+classList.add:
+
+Добавить переменную:
+let variableName = 'Я значение переменной!';
+let header = document.querySelector('header');
+let page = doc...
+
+Кнопка:
+let button = document.querySelector('button');
+
+По кнопке кликают:
+button.onclick = function() {
+  console.log('Клик!');
+};
+
+onclick означает «по клику»
+А та часть инструкции, которая идёт после onclick, называется обработчиком событий.
+
+рабочий код на кнопку "тема" :
+let page = document.querySelector('.page');
+let themeButton = document.querySelector('.theme-button');
+themeButton.onclick = function() {
+  page.classList.toggle('light-theme');
+  page.classList.toggle('dark-theme');
+};
+
+Найти текст:
+let paragraph = document.querySelector('p');
+console.log(paragraph.textContent);
+
+Поменять текст в сплывающем окне:
+let message = document.querySelector('.subscription-message');
+message.textContent='Я новое текстовое содержимое элемента!';
+
+Комментарии: (позволяют отключать код, на работу не влияет)
+// Однострочные комментарии.
+/*
+И многострочные.
+Они могут отключить сразу несколько строк кода.
+*/
+
+взять имэйл пользователя в оповещение:
+ message.textContent = 'Адрес ' + email.value + ' добавлен в список получателей рассылки.'
